@@ -7,7 +7,7 @@ TODO: Add MkDocs
 
 ## Using this as a package skeleton
 
-Adapted from: http://learnpythonthehardway.org/book/ex46.html
+Adapted from: [http://learnpythonthehardway.org/book/ex46.html]
 
 Whenever you want to start a new project, do this:
 
@@ -22,7 +22,7 @@ Whenever you want to start a new project, do this:
 
 ## More on naming from StackOverflow
 
-source: `http://stackoverflow.com/questions/17457782/how-to-structure-python-packages-without-repeating-top-level-name-for-import/17530651#17530651`
+source: [http://stackoverflow.com/questions/17457782/how-to-structure-python-packages-without-repeating-top-level-name-for-import/17530651#17530651]
 
 ... most people, tools and docs assume you have a package ...
 So the minimum would be:
