@@ -14,8 +14,10 @@ Whenever you want to start a new project, do this:
 1. Make a copy of the `python_example_package` directory. Name it after your new project.
 2. Rename `python_example_package` to your project name throughout the skeleton files. 
 3. Edit your `setup.py` to have all the information for your project.
-4. Double check it's all working by using `nosetests` again.
-       - from the main package directory run `nosetests`
+4. Double check it's all working by running tests:
+       - from the main package directory:
+	   - ipython
+	   - `run tests/python_example_package_tests.py`
 5. Remove the sample function from the package `__init__.py` and the corresponding tests from `tests/`.
 6. Start coding.
 
