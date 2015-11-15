@@ -20,47 +20,7 @@ Whenever you want to start a new project, do this:
 6. Start coding.
 
 
-## More on naming from StackOverflow
+## More on file and directory naming from StackOverflow:
 
-source: [http://stackoverflow.com/questions/17457782/how-to-structure-python-packages-without-repeating-top-level-name-for-import/17530651#17530651]
+[http://stackoverflow.com/questions/17457782/how-to-structure-python-packages-without-repeating-top-level-name-for-import/17530651#17530651]
 
-... most people, tools and docs assume you have a package ...
-So the minimum would be:
-
-```
-bagoftricks
-├── bagoftricks
-│   └── __init__.py
-├── README.md
-└── setup.py
-```
-
-With __init__.py containing the functions you want to import. You then use these functions like this:
-
-from bagoftricks import levenshtein, anotherfunction
-Once that __init__.py becomes too big, you want to split it up in several modules, giving you something like this:
-
-```
-bagoftricks
-├── bagoftricks
-│   ├── __init__.py
-│   ├── anothermodule.py
-│   └── levenshtein.py
-├── README.md
-└── setup.py
-```
-
-Your __init__.py should then import the functions from the various modules:
-
-```
-from bagoftricks.levenshtein import levenshtein
-from bagoftricks.anothermodule import anotherfunction
-```
-
-And then you can still use them like like you did before.
-
-shareimprove this answer
-answered Jul 8 '13 at 15:39
-
-Lennart Regebro
-64k13105183
